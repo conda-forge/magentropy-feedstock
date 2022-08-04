@@ -28,7 +28,6 @@ requirements:
     - pint-pandas >=0.2
     - python
     - scipy >=1.7.3
-    - tomli >=2.0.1  # [py<311]
 
 test:
   imports:
