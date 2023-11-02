@@ -1,5 +1,5 @@
 {% set name = "magentropy" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/magentropy-{{ version }}.tar.gz
-  sha256: 9e0f3a06b1e050094a367288b1ca4ab2638d60b4dc89e91f807ff3ec3fe9737d
+  sha256: 5933215e477fedacede1335c8b9b235f5d794ab2c53da11e86afb0cd29aa8496
 
 build:
   skip: true  # [py<39]
