@@ -26,7 +26,7 @@ requirements:
     - pandas >=1.4.3, <2.0
     - pint >=0.19.2
     - pint-pandas >=0.2
-    - python <3.11
+    - python
     - scipy >=1.7.3
 
 test:
